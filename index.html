@@ -235,7 +235,7 @@
         .nutrition-table {
             background: var(--white);
             border-radius: 20px;
-            overflow: scroll;
+            overflow: hidden;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
         }
 
@@ -477,6 +477,11 @@
             grid-template-columns: repeat(1, minmax(0, 1fr));
             gap: 30px;
             margin-top: 50px;
+        }
+         .nutrition-table {
+           
+            overflow: scroll;
+           
         }
 
             .nutrition-table th,
